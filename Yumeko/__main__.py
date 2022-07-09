@@ -73,36 +73,35 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-YUMEKO_IMG = "https://telegra.ph/file/e0040466048302df1a451.mp4"
+YUMEKO_IMG = "https://telegra.ph/file/5275e94b6814452e1fa03.jpg"
 
 PM_START_TEXT = """
-**Hey I am Yumeko** [ㅤ](https://telegra.ph/file/6643b0fb6792b2e5e844a.mp4)
-×————————————————————×
-**×I'm a Powerfull Group Manager Bot With Cool Modules. feel free to add me to your groups!**
-×————————————————————×
-☉ **×Click the button below for more.**
+Koro Sensei is always ready to server you master.  [❤️](https://telegra.ph//file/8fdcf028a59b28a660e99.mp4)
+────────────────────────
+✪ Hit /help to see my available commands and then see my magic.
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="➕ Add Yumeko To Your group ➕", url="http://t.me/YumekoProBot?startgroup=true"),
+         InlineKeyboardButton(
+                             text="Powered By",
+                             url=f"https://t.me/Anime_Classrooms"),
     ],
     [
-        InlineKeyboardButton(text="About", callback_data="yumeko_"),
+        InlineKeyboardButton(text="Get Help", callback_data="help_back"),
         InlineKeyboardButton(
-            text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/"
+            text="Updates", url=f"t.me/KoroSensei_AC"
         ),
     ],
     [
-        
         InlineKeyboardButton(
-            text="❓ Help&Commands", callback_data="help_back"),
+            text="➗ Add Me To Your Group ➗", url=f"t.me/KoroXSensei_Bot?startgroup=true"),
     ],
 ]
 
 
 HELP_STRINGS = """
-**Main commands:**  [ㅤ](https://telegra.ph/file/efdee100cc31b4b3e0be2.mp4)
+**Main commands:**  [ㅤ](https://telegra.ph/file/5275e94b6814452e1fa03.jpg)
 ❂ /start: Starts me! You've probably already used this.
 ❂ /help: Sends this message; I'll tell you more about myself.
 
@@ -111,8 +110,7 @@ If you want to report any bugs or need any help with setting up Yumeko, reach us
 
 
 
-DONATE_STRING = """Hehe, baka!!
- [Is that so!!](https://t.me/Ryu_God) ❤️
+DONATE_STRING = """Hehe, baka.. I am free!!
 """
 
 IMPORTED = {}
