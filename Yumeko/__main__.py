@@ -900,7 +900,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[I Aᴍ Aʟɪᴠᴇ](https://telegra.ph/file/5275e94b6814452e1fa03.jpg), parse_mode=ParseMode.MARKDOWN")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Bot Restarted \nPython:3.10.1 \nTelegram Library: v13.11, parse_mode=ParseMode.MARKDOWN")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
